@@ -1,0 +1,3 @@
+<launch>
+   <node name="topic_publisher" pkg="publish_" type="topic_publisher_node" output="screen" />
+</launch>

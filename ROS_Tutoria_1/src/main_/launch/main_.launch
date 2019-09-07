@@ -1,0 +1,6 @@
+<launch>
+   <include file="$(find publish_)/launch/topic_publisher.launch" />
+   <include file="$(find subscribe_)/launch/topic_subscriber.launch" />
+   
+   <node name="main_launch" pkg="main_" type="main_node" output="screen" />
+</launch>
